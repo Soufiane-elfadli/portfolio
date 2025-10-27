@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Soufiane Elfadli</title>
+    <!-- Lien vers CSS externe -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome pour icônes -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- MENU -->
+    <nav>
+        <a href="#header">Accueil</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- HEADER -->
+    <div class="container header" id="header">
+        <img src="photo.jpg" alt="Soufiane Elfadli">
+        <h1>Soufiane Elfadli</h1>
+        <p class="subtitle">Ingénieur en Génie Industriel | Chef de Produit</p>
+        <p>Email : <a href="mailto:soufiane.elfadli@esith.net" style="color:#ffda79;">soufiane.elfadli@esith.net</a></p>
+    </div>
+
+    <!-- COMPÉTENCES -->
+    <div class="container" id="competences">
+        <h2>Compétences</h2>
+        <div class="skills">
+            <div class="skill">
+                <div class="skill-name">Persévérant</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width:90%">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Esprit d'équipe</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width:85%">85%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Capacité d'assimilation</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width:80%">80%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-name">Bonne gestion de stress</div>
+                <div class="skill-bar">
+                    <div class="skill-bar-fill" style="width:90%">90%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROJETS -->
+    <div class="container" id="projets">
+        <h2>Projets</h2>
+
+        <div class="project">
+            <h3>Projet Maaÿaz <span>2024, Casablanca</span></h3>
+            <p>• Projet “Maaÿaz” – Marque d’accessoires artisanaux (étude de marché, définition du buyer persona, analyse concurrentielle et stratégie digitale valorisant le savoir-faire marocain).</p>
+        </div>
+
+        <div class="project">
+            <h3>Projet TIPE : Arrosage automatique Goutte à Goutte <span>2023, Settat</span></h3>
+            <p>• Conce
